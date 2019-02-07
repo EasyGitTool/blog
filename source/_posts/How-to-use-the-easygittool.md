@@ -7,4 +7,5 @@ EasyGitTool被创始于2019年2月3日。
 
 EasyGitTool的使用可以说是简单而又方便
 
-对于liunx来说，直接可以```Wget           https://github.com/easygittool/EasyGitTool/archive/版本.tar.gz```，而对于Windiows来说直接到[EasyGitTool](https://github.com/easygittool/EasyGitTool/releases)下载
+对于liunx来说，直接可以```git clone https://github.com/easygittool/easygittool.github.io.git```
+更新就直接使用```git pull origin```，而对于Windiows来说直接到[EasyGitTool](https://github.com/easygittool/EasyGitTool/releases)下载
