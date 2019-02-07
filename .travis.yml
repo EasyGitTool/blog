@@ -34,7 +34,7 @@ after_script:
 - git push --force --quiet "https://${GH_Token}@${GH_CODE}" code:code
 branches:
   only:
-  - develop
+  - master
 env:
   global:
   - GL_WEB: github.com/easygittool/easygittool.github.io.git
