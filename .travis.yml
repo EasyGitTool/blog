@@ -19,7 +19,6 @@ after_script:
 - cd public
 - git init
 - git remote add origin https://github.com/easygittool/easygittool.github.io.git
-- git pull --rebase origin master
 - git add .
 - git commit -m "Travis CI Auto Builder"
 - git push --force --quiet "https://${GH_Token}@${GH_WEB}" master:master
@@ -28,4 +27,4 @@ branches:
   - master
 env:
   global:
-  - GL_WEB: github.com/easygittool/easygittool.github.io.git
+  - GH_WEB: github.com/easygittool/easygittool.github.io.git
