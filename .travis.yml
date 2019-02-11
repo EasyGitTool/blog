@@ -22,7 +22,7 @@ after_script:
 - git pull --rebase origin master
 - git add .
 - git commit -m "Travis CI Auto Builder"
-- git push -u "https://${GH_Token}@${GH_WEB}" master:master
+- git push --force --quiet "https://${GH_Token}@${GH_WEB}" master:master
 branches:
   only:
   - master
