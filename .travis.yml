@@ -13,6 +13,7 @@ script:
 - hexo clean
 - hexo g
 after_script:
+- rm -rf .git
 - git config --global user.name "Mryan2005"
 - git config --global user.email "40586009+Mryan2005@users.noreply.github.com"
 - cd public
